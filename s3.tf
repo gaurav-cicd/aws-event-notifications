@@ -10,3 +10,7 @@ resource "aws_s3_bucket_notification" "s3_event_notification" {
     events    = ["s3:ObjectCreated:*"]
   }
 }
+
+
+
+
